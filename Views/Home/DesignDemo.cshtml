@@ -1,0 +1,119 @@
+@{
+    ViewData["Title"] = "Design System Demo";
+}
+
+<div class="container">
+    <!-- Header Section -->
+    <header class="text-center py-5">
+        <h1>Design System Demo</h1>
+        <p class="text-secondary">A showcase of our atomic design system components</p>
+    </header>
+
+    <!-- Typography Section -->
+    <section class="card-basic mb-5">
+        <h2>Typography</h2>
+        <div class="mb-4">
+            <h1>Heading 1</h1>
+            <h2>Heading 2</h2>
+            <h3>Heading 3</h3>
+            <h4>Heading 4</h4>
+            <h5>Heading 5</h5>
+            <h6>Heading 6</h6>
+        </div>
+        <div class="mb-4">
+            <p>This is a paragraph with <a href="#">a sample link</a>. Our typography system uses responsive units and maintains consistent spacing.</p>
+            <p class="text-secondary">This is a secondary text example showing our color system in action.</p>
+        </div>
+    </section>
+
+    <!-- Buttons Section -->
+    <section class="card-basic mb-5">
+        <h2>Buttons</h2>
+        <div class="mb-4">
+            <button class="button-primary me-2">Primary Button</button>
+            <button class="button-secondary me-2">Secondary Button</button>
+            <button class="btn btn-primary me-2">Bootstrap Primary</button>
+            <button class="btn btn-secondary">Bootstrap Secondary</button>
+        </div>
+    </section>
+
+    <!-- Forms Section -->
+    <section class="card-basic mb-5">
+        <h2>Form Elements</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label">Custom Input</label>
+                        <input type="text" class="input-base" placeholder="Enter text...">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Bootstrap Input</label>
+                        <input type="text" class="form-control" placeholder="Bootstrap input...">
+                    </div>
+                    <button type="submit" class="button-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cards Section -->
+    <section class="mb-5">
+        <h2>Cards</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card-basic">
+                    <h3 class="card-title">Custom Card</h3>
+                    <p class="card-content">This card uses our custom design system classes.</p>
+                    <button class="button-primary">Learn More</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Bootstrap Card</h3>
+                        <p class="card-text">This is a Bootstrap card with our design tokens applied.</p>
+                        <button class="btn btn-primary">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Spacing Demo -->
+    <section class="card-basic mb-5">
+        <h2>Spacing System</h2>
+        <div class="bg-light p-3 mb-3">
+            <div class="bg-primary text-white p-1 m-1">Spacing 1 (XS)</div>
+            <div class="bg-primary text-white p-2 m-2">Spacing 2 (SM)</div>
+            <div class="bg-primary text-white p-3 m-3">Spacing 3 (MD)</div>
+            <div class="bg-primary text-white p-4 m-4">Spacing 4 (LG)</div>
+            <div class="bg-primary text-white p-5 m-5">Spacing 5 (XL)</div>
+        </div>
+    </section>
+
+    <!-- Colors Section -->
+    <section class="card-basic mb-5">
+        <h2>Color System</h2>
+        <div class="row">
+            <div class="col-md-2 mb-3">
+                <div class="bg-primary text-white p-3">Primary</div>
+            </div>
+            <div class="col-md-2 mb-3">
+                <div class="bg-secondary text-white p-3">Secondary</div>
+            </div>
+            <div class="col-md-2 mb-3">
+                <div class="bg-success text-white p-3">Success</div>
+            </div>
+            <div class="col-md-2 mb-3">
+                <div class="bg-danger text-white p-3">Danger</div>
+            </div>
+            <div class="col-md-2 mb-3">
+                <div class="bg-light p-3">Light</div>
+            </div>
+            <div class="col-md-2 mb-3">
+                <div class="bg-dark text-white p-3">Dark</div>
+            </div>
+        </div>
+    </section>
+</div>
